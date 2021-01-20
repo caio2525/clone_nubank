@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import Constants from 'expo-constants';
+import {Animated} from 'react-native';
 
 const statusBarHeight = Constants.statusBarHeight;
 
@@ -17,12 +18,17 @@ export const Content = styled.View`
 
 `
 
-export const  Card = styled.View`
+export const  Card = styled(Animated.View)`
   flex: 1;
   background: #fff;
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  
 `
 
 export const CardHeader = styled.View`
@@ -57,5 +63,5 @@ export const Description = styled.Text`
 
 export const Annotation = styled.Text`
   font-size: 13px;
-  color: #333;
+  color: #333;t
 `
