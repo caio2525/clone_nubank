@@ -1,5 +1,5 @@
 ## About The Project
-That is a Nubank Clone Project made following youtube tutorial
+That is a Nubank Clone Project made following youtube tutorial from rocketseat
 
 ### Built With
 * [React Native](https://reactnative.dev/)
