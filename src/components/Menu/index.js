@@ -24,7 +24,7 @@ const navItems = [
   },
 
   {
-    name: 'credit card',
+    name: 'credit-card',
     text: 'Configurar cartão'
   },
 
